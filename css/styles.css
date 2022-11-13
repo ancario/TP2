@@ -1,0 +1,128 @@
+/* Imports de polices de caractère Google */
+@import url('https://fonts.googleapis.com/css?family=Mochiy Pop One');
+@import url('https://fonts.googleapis.com/css?family=Castoro');
+
+.main {
+    max-width: 1000px;
+    min-width: 480px;
+    margin: auto;
+    background-color: rgb(226, 115, 115);
+}
+
+.headerLayout {
+    display: grid;
+    grid-template-columns: 80px auto;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid lightgray;
+}
+
+.headerLayout img {
+    width: 60px;
+    margin-left: 15px;
+}
+
+.menuLayout {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+}
+
+.menuLayout a {
+    min-width: 80px;
+    font-size: 1.5em;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(50, 145, 21);
+    border-radius: 6px;
+    padding: 4px 20px 4px 20px;
+    /* top right bottom left*/
+}
+
+/* boutons 3 états à l'aide des sélecteurs :hover et :active */
+.menuLayout a:hover {
+    color: white;
+    background-color: black;
+}
+
+.menuLayout a:active {
+    background-color: rgb(172, 37, 37);
+}
+
+.menuLayout .selected {
+    background-color: lightgray;
+}
+
+.content {
+    padding: 20px;
+    font-family: "Mochiy Pop One";
+}
+
+.content img {
+    width: 100%;
+}
+
+.content p {
+    text-align: justify;
+    font-size: 1.2em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.présentationDomaine{
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+.divgrid{
+    display: grid;
+}
+.alignertexte{
+    padding-top: 50px;
+    text-align: center;
+    text-justify: auto;
+}
+.photo{
+    min-width: none; 
+    max-width: 250px;
+}
+.center{
+    padding-left:  30%;
+}
+.maPhoto
+{
+  max-width: 200px; border-radius: 00px; padding: 10px;border: solid 10px rgb(14, 233, 25);   
+  
+}
+.avatar {
+    background-image: url("../images/moi.jpg");
+    height: 247px;
+    width: 247px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 260px;
+}
+
+.avatarFrame {
+    width: 252px;
+    height: 252px;
+    padding-left: 5px;
+    padding-top: 5px;
+    border-radius: 255px;
+    border: 10px solid darkcyan;
+}
+.headerRigth {
+    margin-top: 22px;
+    display: grid;
+    grid-template-columns: auto 14px;
+}
+.alignerTexteAvecPhoto{
+    padding-top: 110px;
+    text-align: center;
+    text-justify: auto;
+}
+
+
+    
